@@ -1,4 +1,3 @@
-import React from "react";
 import { Outlet as OutletRouterDom } from "react-router-dom";
 
 export default () => {
