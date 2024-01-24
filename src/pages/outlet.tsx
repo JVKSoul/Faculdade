@@ -1,11 +1,13 @@
 import { Outlet as OutletRouterDom } from "react-router-dom";
+import { Header } from "../components/header";
+import { Footer } from "../components/footer";
 
 export default () => {
   return (
     <>
-      <div className="w-full bg-cyan-400"> asdasd</div>
+      <Header />
       <OutletRouterDom />
-      <div className="w-full  bg-cyan-400"> asdasd</div>
+      <Footer />
     </>
   );
 };
