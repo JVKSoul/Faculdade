@@ -12,9 +12,9 @@ const Product = () => {
     setProduct(FAKE_DATA.find((product) => product.id === id));
   }, []);
   
-  // useEffect(() => {
-  //   document.title = `${product ? product.name : "Carregando..."}`;
-  // }, [product]);
+  useEffect(() => {
+    document.title = `${product ? product.name : "Carregando..."}`;
+  }, [product]);
   
   return (
     <div className="bg-zinc-900  min-h-screen flex flex-col justify-start items-center">

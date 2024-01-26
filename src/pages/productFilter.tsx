@@ -13,9 +13,9 @@ const ProductFilter = () => {
         setProducts(FAKE_DATA.filter((product) => product.filter.includes(`${filter}`)));
     }, [filter]);
 
-    // useEffect(() => {
-    //   document.title = `${filter?.toUpperCase()  === "COMPUTER"? "Computador" : filter?.toUpperCase() === "PERIPHERALS" ? "Periféricos" : filter?.toUpperCase() === "HARDWARE" ? "Hardware" : "Carregando..."}`;
-    // }, [filter]);
+    useEffect(() => {
+      document.title = `${filter?.toUpperCase()  === "COMPUTER"? "Computador" : filter?.toUpperCase() === "PERIPHERALS" ? "Periféricos" : filter?.toUpperCase() === "HARDWARE" ? "Hardware" : "Carregando..."}`;
+    }, [filter]);
 
   return (
     <div className="bg-zinc-900  min-h-screen flex flex-col justify-center">
