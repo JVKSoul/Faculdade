@@ -16,7 +16,7 @@ export const Header = () => {
         <Link to={`/hardware`} className="text-white">Hardware</Link>
         <Link to={`/peripherals`} className="text-white">Periféricos</Link>
         <img src={`${Cart}`} alt="" width={30} height={30}/>
-        <button className="bg-yellow-500 p-2 rounded text-white">Login</button>
+        <button className="bg-red-600 p-2 rounded text-white">Login</button>
       </nav>
       <div className="mt-4">
         <input type="text" placeholder="Pesquisar..." className="p-2 px-12 rounded"/>
