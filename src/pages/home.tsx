@@ -8,9 +8,9 @@ const Home = () => {
   const [productArray, setProductArray] = useState<IProduct[]>();
   const [newProductArray, setNewProductArray] = useState<IProduct[]>();
 
-  useEffect(() => {
-    document.title = 'PC Parts pro';
-  }, []);
+  // useEffect(() => {
+  //   document.title = 'PC Parts pro';
+  // }, []);
 
   useEffect(() => {
     setNewProductArray([...FAKE_DATA]);
