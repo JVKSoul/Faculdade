@@ -7,7 +7,9 @@ export const Header = () => {
     <header className="flex justify-between items-center p-5 bg-[#222222]
     ">
       <div className='flex justify-center items-center'>
+        <Link to="/">
         <img src={`${Icon}`} alt="Logo" className="h-35 w-35"/>
+        </Link>
       </div>
       <div className='flex flex-col'>
 
