@@ -6,13 +6,16 @@ import cart from "../assets/cart.png";
 
 const Product = () => {
   const [product, setProduct] = useState<IProduct>();
-
   const { id } = useParams();
 
   useEffect(() => {
     setProduct(FAKE_DATA.find((product) => product.id === id));
   }, []);
-
+  
+  useEffect(() => {
+    document.title = `${product ? product.name : "Carregando..."}`;
+  }, [product]);
+  
   return (
     <div className="bg-zinc-900  min-h-screen flex flex-col justify-start items-center">
       <div className="flex xl:flex-row 2xl:flex-row items-center justify-center flex-col w-4/5 gap-12 mt-24">
