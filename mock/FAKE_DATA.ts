@@ -21,7 +21,7 @@ const FAKE_DATA: IProduct[] = [
       "https://images-americanas.b2w.io/produtos/5404172731/imagens/computador-desktop-dell-xps-i1200-m10d-12-geracao-intel-core-i5-8gb-256gb-ssd-windows-11-com-monitor/5404172731_10_large.jpg",
     ],
     filter: [
-      "computador",
+      "computer",
       "desktop",
       "Dell",
       "Intel Core i7",
@@ -45,7 +45,7 @@ const FAKE_DATA: IProduct[] = [
       "https://images-americanas.b2w.io/produtos/7193404801/imagens/pc-gamer-completo-3green-play-intel-core-i7-16gb-ram-placa-de-video-geforce-4gb-ssd-256gb-monitor-20-75hz-fonte-500w-3gp-055/7193404801_5_large.jpg",
     ],
     filter: [
-      "computador",
+      "computer",
       "desktop",
       "PC Gamer",
       "Skill",
@@ -70,7 +70,7 @@ const FAKE_DATA: IProduct[] = [
       "https://images-americanas.b2w.io/produtos/235480221/imagens/pc-gamer-icc-kt2541s-intel-core-i5-3-20-ghz-4gb-500gb-gt710-2gb-hdmi-full-hd/235480221_4_large.jpg",
     ],
     filter: [
-      "computador",
+      "computer",
       "desktop",
       "PC Gamer",
       "ICC",
@@ -97,7 +97,7 @@ const FAKE_DATA: IProduct[] = [
       "https://images-americanas.b2w.io/produtos/5399570928/imagens/computador-lenovo-v50s-intel-core-i3-10100-4gb-hd-500gb-freedos-11ha000cbr/5399570928_5_large.jpg",
     ],
     filter: [
-      "computador",
+      "computer",
       "desktop",
       "Lenovo",
       "Intel Core i5",
@@ -120,7 +120,7 @@ const FAKE_DATA: IProduct[] = [
       "https://images-americanas.b2w.io/produtos/7306438734/imagens/computador-gamer-completo-rgb-intel-core-i5-8gb-hd-500gb-kit-gamer-com-headset-monitor-20-windows-10-3green-premium/7306438734_6_large.jpg"
     ],
     filter: [
-      "computador",
+      "computer",
       "desktop",
       "PC Gamer",
       "Skill",
@@ -147,7 +147,7 @@ const FAKE_DATA: IProduct[] = [
 
     ],
     filter: [
-      "computador",
+      "computer",
       "all-in-one",
       "Dell",
       "Intel Core i5",
@@ -168,7 +168,7 @@ const FAKE_DATA: IProduct[] = [
       "https://images-americanas.b2w.io/produtos/68403963/imagens/computador-lenovo-tiny-thinkcentre-m920q-core-i3-8100t-4gb-1tb-windows-10-pro-dvdrw-hdmi-dp-sem-vga/68403965_4_large.jpg",
     ],
     filter: [
-      "computador",
+      "computer",
       "desktop",
       "Lenovo",
       "Intel Core i5",
@@ -188,7 +188,7 @@ const FAKE_DATA: IProduct[] = [
       "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08209932.png",
     ],
     filter: [
-      "computador",
+      "computer",
       "desktop",
       "HP",
       "Intel Core i7",
@@ -210,7 +210,7 @@ const FAKE_DATA: IProduct[] = [
       "https://images-americanas.b2w.io/produtos/01/00/img/5807349/6/5807349668_4GG.jpg",
     ],
     filter: [
-      "computador",
+      "computer",
       "notebook",
       "Acer",
       "Intel Core i5",
@@ -253,12 +253,12 @@ const FAKE_DATA: IProduct[] = [
       "https://images-americanas.b2w.io/produtos/7476820005/imagens/notebook-lenovo-legion-slim-5i-i7-13700h-16gb-1tb-ssd-rtx-4060-8gb-w11h-16-wqxga-83d60000br-cinza/7476820005_6_large.jpg",
 
     ],
-    filter: ["computador", "notebook", "gamer"],
+    filter: ["computer", "notebook", "gamer"],
   },
   {
     name: "Dell G5 Gaming Desktop",
     price: 1199,
-    id:"311641970",
+    id:"311641972",
     description:
       "Este desktop é ideal para jogos e entretenimento. Com uma placa de vídeo NVIDIA GeForce GTX 1660 Ti, você pode desfrutar de imagens nítidas e vibrantes. O processador Intel Core i5 oferece desempenho rápido e eficiente. O armazenamento de 512 GB permite que você armazene todos os seus arquivos importantes.",
     thumb: "https://images-americanas.b2w.io/produtos/7472392298/imagens/dell-gamer-g15-5525-ryzen-5-8gb-ssd-512gb-rtx-3050/7472392298_1_large.jpg",
@@ -269,7 +269,7 @@ const FAKE_DATA: IProduct[] = [
       "https://images-americanas.b2w.io/produtos/7472392298/imagens/dell-gamer-g15-5525-ryzen-5-8gb-ssd-512gb-rtx-3050/7472392298_5_large.jpg",
       "https://images-americanas.b2w.io/produtos/7472392298/imagens/dell-gamer-g15-5525-ryzen-5-8gb-ssd-512gb-rtx-3050/7472392298_6_large.jpg"
     ],
-    filter: ["computador", "notebook"],
+    filter: ["computer", "notebook"],
   },
   {
     name: "HP Pavilion All-in-One",
@@ -284,7 +284,7 @@ const FAKE_DATA: IProduct[] = [
       "https://images-americanas.b2w.io/produtos/7388107971/imagens/computador-all-in-one-i7-16gb-ram-960gb-ssd-tela-24-wifi-kit/7388107971_4_large.jpg",
       "https://images-americanas.b2w.io/produtos/7388107971/imagens/computador-all-in-one-i7-16gb-ram-960gb-ssd-tela-24-wifi-kit/7388107971_5_large.jpg",
     ],
-    filter: ["computador", "notebook"],
+    filter: ["computer", "notebook"],
   },
   {
     name: "Acer Aspire TC-895-UA92",
@@ -300,7 +300,7 @@ const FAKE_DATA: IProduct[] = [
       "https://images-americanas.b2w.io/produtos/7458770630/imagens/notebook-acer-aspire-3-amd-ryzen-3-7-geracao-7320u-8gb-ddr5-ssd-512gb-nvme-graficos-radeon-windows-11-tela-15-6-a315-24p-r06b/7458770630_5_large.jpg",
 
     ],
-    filter: ["computador", "notebook"],
+    filter: ["computer", "notebook"],
   },
   {
     name: "Lenovo ThinkCentre M920 Tiny",
@@ -315,7 +315,7 @@ const FAKE_DATA: IProduct[] = [
       "https://www.lenovo.com/medias/lenovo-desktops-thinkcentre-m920-tiny-4.png?context=bWFzdGVyfHJvb3R8MjYxMzAzfGltYWdlL3BuZ3xoYTQvaDg5Lzk3ODY1MTY5MzA1OTAucG5nfGE0ZTRjYTRkMGVmZTE3MGU3ZjJkZjU1ZjkzMzM0OWU1YTQ0ZjI3N2QyNDgzN2Q5NGZlNGVlYTg2MzY3ZjcwZTE",
       "https://www.lenovo.com/medias/lenovo-desktops-thinkcentre-m920-tiny-5-1126.png?context=bWFzdGVyfHJvb3R8MjYwNTMwfGltYWdlL3BuZ3xoZmEvaDZkLzEwNjczMTk1MzUyMDk0LnBuZ3wyN2JjOWZhM2Y1MjJiNmY5YTg0YmJiYmYyNTk0MDlmZmU5OTVmMGYyMThjM2NiZDAwOTEzY2YyMTE1MjEwMGI0"
     ],
-    filter: ["computador", "notebook"],
+    filter: ["computer", "notebook"],
   },
   {
     name: "Dell Inspiron 24 5000",
@@ -332,7 +332,7 @@ const FAKE_DATA: IProduct[] = [
       "https://http2.mlstatic.com/D_NQ_NP_913252-MLU73234595646_122023-O.webp",
       "https://http2.mlstatic.com/D_NQ_NP_802555-MLU73234178658_122023-O.webp",
     ],
-    filter: ["computador", "notebook"],
+    filter: ["computer", "notebook"],
   },
   {
     name: "Dell XPS 8940",
@@ -350,7 +350,7 @@ const FAKE_DATA: IProduct[] = [
       "https://http2.mlstatic.com/D_NQ_NP_996077-MLB31359772011_072019-O.webp",
       "https://http2.mlstatic.com/D_NQ_NP_884369-MLB27809828985_072018-O.webp",
     ],
-    filter: ["computador", "notebook"],
+    filter: ["computer", "notebook"],
   },
   {
     name: "Acer Aspire C24-963-UA91",
@@ -366,7 +366,272 @@ const FAKE_DATA: IProduct[] = [
       "https://images-americanas.b2w.io/produtos/01/00/img/4832687/3/4832687301_6GG.jpg",
       "https://images-americanas.b2w.io/produtos/01/00/img/4832687/3/4832687301_7GG.jpg",
     ],
-    filter: ["computador", "notebook"],
+    filter: ["computer", "notebook"],
+  },
+  {
+    "name": "Intel Core i7-9700K",
+    "price": 350,
+    "id": "123456689",
+    "description": "O Intel Core i7-9700K é um processador de 9ª geração com 8 núcleos, 8 threads e uma velocidade de clock de até 4.9 GHz.",
+    "thumb": "https://images-americanas.b2w.io/produtos/5079681258/imagens/processador-intel-9700k-core-i7-1151-3-60-ghz-box-9-ger/5079681258_1_large.jpg",
+    "photos": ["url_da_imagem_1", "url_da_imagem_2"],
+    "filter": ["hardware" , "processador", "Intel", "Core i7"]
+  },
+  {
+    "name": "Corsair Vengeance LPX 16GB",
+    "price": 80,
+    "id": "987654331",
+    "description": "A Corsair Vengeance LPX 16GB é uma memória RAM DDR4 com uma velocidade de 3200MHz, ideal para jogos e aplicações pesadas.",
+    "thumb": "https://images-americanas.b2w.io/produtos/6941289029/imagens/memoria-corsair-vengeance-lpx-16gb-3200mhz-ddr4-cl16-preta/6941289029_1_large.jpg",
+    "photos": ["https://images-americanas.b2w.io/produtos/6941289029/imagens/memoria-corsair-vengeance-lpx-16gb-3200mhz-ddr4-cl16-preta/6941289029_2_large.jpg",
+     "https://images-americanas.b2w.io/produtos/6941289029/imagens/memoria-corsair-vengeance-lpx-16gb-3200mhz-ddr4-cl16-preta/6941289029_1_large.jpg",
+     "https://images-americanas.b2w.io/produtos/6941289029/imagens/memoria-corsair-vengeance-lpx-16gb-3200mhz-ddr4-cl16-preta/6941289029_3_large.jpg"
+    ],
+    "filter": ["hardware" , "memória RAM", "Corsair", "16GB", "DDR4"]
+  },
+  {
+    "name": "Samsung 860 EVO 1TB",
+    "price": 120,
+    "id": "1122334455",
+    "description": "O Samsung 860 EVO 1TB é um SSD com alta velocidade de leitura e gravação, oferecendo um desempenho rápido e confiável.",
+    "thumb": "https://images-americanas.b2w.io/produtos/3806000325/imagens/samsung-ssd-1tb-970-evo-plus-3500mbs-v-nand-m-2-nvme/3806000325_1_large.jpg",
+    "photos": ["https://images-americanas.b2w.io/produtos/3806000325/imagens/samsung-ssd-1tb-970-evo-plus-3500mbs-v-nand-m-2-nvme/3806000325_2_large.jpg",
+     "https://images-americanas.b2w.io/produtos/3806000325/imagens/samsung-ssd-1tb-970-evo-plus-3500mbs-v-nand-m-2-nvme/3806000325_1_large.jpg",
+    "https://images-americanas.b2w.io/produtos/3806000325/imagens/samsung-ssd-1tb-970-evo-plus-3500mbs-v-nand-m-2-nvme/3806000325_3_large.jpg",
+  "https://images-americanas.b2w.io/produtos/3806000325/imagens/samsung-ssd-1tb-970-evo-plus-3500mbs-v-nand-m-2-nvme/3806000325_4_large.jpg",
+"https://images-americanas.b2w.io/produtos/3806000325/imagens/samsung-ssd-1tb-970-evo-plus-3500mbs-v-nand-m-2-nvme/3806000325_5_large.jpg",
+"https://images-americanas.b2w.io/produtos/3806000325/imagens/samsung-ssd-1tb-970-evo-plus-3500mbs-v-nand-m-2-nvme/3806000325_6_large.jpg",
+"https://images-americanas.b2w.io/produtos/3806000325/imagens/samsung-ssd-1tb-970-evo-plus-3500mbs-v-nand-m-2-nvme/3806000325_7_large.jpg",
+"https://images-americanas.b2w.io/produtos/3806000325/imagens/samsung-ssd-1tb-970-evo-plus-3500mbs-v-nand-m-2-nvme/3806000325_8_large.jpg",
+],
+    "filter": ["hardware" , "SSD", "Samsung", "1TB"]
+  },
+  {
+    "name": "NVIDIA GeForce RTX 3080",
+    "price": 700,
+    "id": "6677889900",
+    "description": "A NVIDIA GeForce RTX 3080 é uma placa de vídeo de alto desempenho, ideal para jogos em 4K e renderização de gráficos pesados.",
+    "thumb": "https://images-americanas.b2w.io/produtos/6696367361/imagens/placa-video-galax-nvidia-geforce-rtx-4090-sg-1-click-oc-24gb/6696367361_2_large.jpg",
+    "photos": [
+      "https://images-americanas.b2w.io/produtos/6696367361/imagens/placa-video-galax-nvidia-geforce-rtx-4090-sg-1-click-oc-24gb/6696367361_2_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6696367361/imagens/placa-video-galax-nvidia-geforce-rtx-4090-sg-1-click-oc-24gb/6696367361_3_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6696367361/imagens/placa-video-galax-nvidia-geforce-rtx-4090-sg-1-click-oc-24gb/6696367361_4_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6696367361/imagens/placa-video-galax-nvidia-geforce-rtx-4090-sg-1-click-oc-24gb/6696367361_5_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6696367361/imagens/placa-video-galax-nvidia-geforce-rtx-4090-sg-1-click-oc-24gb/6696367361_6_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6696367361/imagens/placa-video-galax-nvidia-geforce-rtx-4090-sg-1-click-oc-24gb/6696367361_7_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6696367361/imagens/placa-video-galax-nvidia-geforce-rtx-4090-sg-1-click-oc-24gb/6696367361_8_large.jpg",
+    ],
+    "filter": ["hardware" , "placa de vídeo", "NVIDIA", "RTX 3080"]
+  },
+  {
+    "name": "ASUS ROG Strix Z390-E",
+    "price": 240,
+    "id": "5544332211",
+    "description": "A ASUS ROG Strix Z390-E é uma placa-mãe com suporte para processadores Intel de 8ª e 9ª geração, ideal para construir um PC de jogos de alto desempenho.",
+    "thumb": "https://images-americanas.b2w.io/produtos/7401616826/imagens/placa-de-video-golden-memory-nvidia-geforce-rtx-2060-super-8gb-256bits-gddr6-directx-12/7401616826_1_large.jpg",
+    "photos": ["https://images-americanas.b2w.io/produtos/7401616826/imagens/placa-de-video-golden-memory-nvidia-geforce-rtx-2060-super-8gb-256bits-gddr6-directx-12/7401616826_1_large.jpg",
+     "https://images-americanas.b2w.io/produtos/7401616826/imagens/placa-de-video-golden-memory-nvidia-geforce-rtx-2060-super-8gb-256bits-gddr6-directx-12/7401616826_2_large.jpg",
+     "https://images-americanas.b2w.io/produtos/7401616826/imagens/placa-de-video-golden-memory-nvidia-geforce-rtx-2060-super-8gb-256bits-gddr6-directx-12/7401616826_3_large.jpg",
+     "https://images-americanas.b2w.io/produtos/7401616826/imagens/placa-de-video-golden-memory-nvidia-geforce-rtx-2060-super-8gb-256bits-gddr6-directx-12/7401616826_4_large.jpg",
+     "https://images-americanas.b2w.io/produtos/7401616826/imagens/placa-de-video-golden-memory-nvidia-geforce-rtx-2060-super-8gb-256bits-gddr6-directx-12/7401616826_5_large.jpg",
+     "https://images-americanas.b2w.io/produtos/7401616826/imagens/placa-de-video-golden-memory-nvidia-geforce-rtx-2060-super-8gb-256bits-gddr6-directx-12/7401616826_6_large.jpg",
+     "https://images-americanas.b2w.io/produtos/7401616826/imagens/placa-de-video-golden-memory-nvidia-geforce-rtx-2060-super-8gb-256bits-gddr6-directx-12/7401616826_7_large.jpg",
+     "https://images-americanas.b2w.io/produtos/7401616826/imagens/placa-de-video-golden-memory-nvidia-geforce-rtx-2060-super-8gb-256bits-gddr6-directx-12/7401616826_8_large.jpg",
+    ],
+    "filter": ["hardware" , "placa-mãe", "ASUS", "ROG Strix", "Z390-E"]
+  },
+  {
+    "name": "Intel Core i3-11340 CPM",
+    "price": 120,
+    "id": "123456789",
+    "description": "Este processador Intel Core i3 oferece desempenho rápido e eficiente para desktops.",
+    "thumb": "https://images-americanas.b2w.io/produtos/5200463481/imagens/processador-intel-core-i3-12100f-12mb-3-3ghz-4-3ghz-lga-1700-bx8071512100f/5200463481_1_large.jpg",
+    "photos": [
+      "https://images-americanas.b2w.io/produtos/5200463481/imagens/processador-intel-core-i3-12100f-12mb-3-3ghz-4-3ghz-lga-1700-bx8071512100f/5200463481_1_large.jpg",
+      "https://images-americanas.b2w.io/produtos/5200463481/imagens/processador-intel-core-i3-12100f-12mb-3-3ghz-4-3ghz-lga-1700-bx8071512100f/5200463481_2_large.jpg",
+      "https://images-americanas.b2w.io/produtos/5200463481/imagens/processador-intel-core-i3-12100f-12mb-3-3ghz-4-3ghz-lga-1700-bx8071512100f/5200463481_3_large.jpg",
+      "https://images-americanas.b2w.io/produtos/5200463481/imagens/processador-intel-core-i3-12100f-12mb-3-3ghz-4-3ghz-lga-1700-bx8071512100f/5200463481_4_large.jpg",
+      
+    ],
+    "filter": ["hardware", "Intel", "Core i3"]
+  },
+  {
+    "name": "AMD Ryzen 7 7840U",
+    "price": 250,
+    "id": "987654321",
+    "description": "O AMD Ryzen 7 é um processador poderoso adequado para jogos e multitarefas intensivas.",
+    "thumb": "https://images-americanas.b2w.io/produtos/7482495026/imagens/processador-amd-ryzen-7-7800x3d-104mb-4-2-5-0ghz-100-100000910wof/7482495026_1_large.jpg",
+    "photos": [
+      "https://images-americanas.b2w.io/produtos/7482495026/imagens/processador-amd-ryzen-7-7800x3d-104mb-4-2-5-0ghz-100-100000910wof/7482495026_1_large.jpg",
+      "https://images-americanas.b2w.io/produtos/7482495026/imagens/processador-amd-ryzen-7-7800x3d-104mb-4-2-5-0ghz-100-100000910wof/7482495026_2_large.jpg",
+      "https://images-americanas.b2w.io/produtos/7482495026/imagens/processador-amd-ryzen-7-7800x3d-104mb-4-2-5-0ghz-100-100000910wof/7482495026_3_large.jpg",
+      "https://images-americanas.b2w.io/produtos/7482495026/imagens/processador-amd-ryzen-7-7800x3d-104mb-4-2-5-0ghz-100-100000910wof/7482495026_4_large.jpg",
+    ],
+    "filter": ["hardware", "AMD", "Ryzen 7", "periphrals"]
+  },
+  {
+    name: "Teclado Mecânico HyperX Alloy Origins",
+    price: 500,
+    id:"123454567289",
+    description:
+      "O teclado mecânico HyperX Alloy Origins é compacto e robusto, equipado com switches mecânicos personalizados HyperX.",
+    thumb:
+      "https://images-americanas.b2w.io/produtos/5598092480/imagens/teclado-mecanico-hyperx-alloy-origins-rgb-switch-red/5598092480_1_large.jpg",
+    photos: [
+      "https://images-americanas.b2w.io/produtos/5598092480/imagens/teclado-mecanico-hyperx-alloy-origins-rgb-switch-red/5598092480_1_large.jpg",
+      "https://images-americanas.b2w.io/produtos/5598092480/imagens/teclado-mecanico-hyperx-alloy-origins-rgb-switch-red/5598092480_2_large.jpg",
+      "https://images-americanas.b2w.io/produtos/5598092480/imagens/teclado-mecanico-hyperx-alloy-origins-rgb-switch-red/5598092480_3_large.jpg",
+      "https://images-americanas.b2w.io/produtos/5598092480/imagens/teclado-mecanico-hyperx-alloy-origins-rgb-switch-red/5598092480_4_large.jpg",
+    ],
+    filter: [
+      "peripherals",
+      "keyboard",
+      "HyperX",
+      "mechanical",
+    ],
+  },
+  {
+    name: "Mouse Logitech G502 HERO",
+    price: 250,
+    id:"98237651234321",
+    description:
+      "O mouse para jogos Logitech G502 HERO apresenta um sensor óptico avançado para máxima precisão de rastreamento, iluminação RGB personalizável e perfis de jogo personalizáveis.",
+    thumb:
+      "https://images-americanas.b2w.io/produtos/7212063521/imagens/mouse-gamer-logitech-g502-hero-16000dpi-rgb-910-005550/7212063521_1_large.jpg",
+    photos: [
+      "https://images-americanas.b2w.io/produtos/7212063521/imagens/mouse-gamer-logitech-g502-hero-16000dpi-rgb-910-005550/7212063521_2_large.jpg",
+      "https://images-americanas.b2w.io/produtos/7212063521/imagens/mouse-gamer-logitech-g502-hero-16000dpi-rgb-910-005550/7212063521_1_large.jpg",
+      "https://images-americanas.b2w.io/produtos/7212063521/imagens/mouse-gamer-logitech-g502-hero-16000dpi-rgb-910-005550/7212063521_3_large.jpg",
+      "https://images-americanas.b2w.io/produtos/7212063521/imagens/mouse-gamer-logitech-g502-hero-16000dpi-rgb-910-005550/7212063521_4_large.jpg",
+      "https://images-americanas.b2w.io/produtos/7212063521/imagens/mouse-gamer-logitech-g502-hero-16000dpi-rgb-910-005550/7212063521_5_large.jpg",
+      "https://images-americanas.b2w.io/produtos/7212063521/imagens/mouse-gamer-logitech-g502-hero-16000dpi-rgb-910-005550/7212063521_6_large.jpg",
+      
+    ],
+    filter: [
+      "peripherals",
+      "mouse",
+      "Logitech",
+      "gaming",
+    ],
+    
+  },
+  {
+    name: "Monitor Gamer ASUS VG248QE",
+    price: 1200,
+    id:"1231245789456",
+    description:
+      "O Monitor Gamer ASUS VG248QE possui uma tela de 24 polegadas com uma taxa de atualização de 144Hz e tempo de resposta de 1ms, ideal para jogos de alta velocidade.",
+    thumb:
+      "https://images-americanas.b2w.io/produtos/7479358100/imagens/monitor-gamer-asus-tuf-gaming-vg24vqe-23-6-90lm0570-b011x0/7479358100_1_large.jpg",
+    photos: [
+      "https://images-americanas.b2w.io/produtos/7479358100/imagens/monitor-gamer-asus-tuf-gaming-vg24vqe-23-6-90lm0570-b011x0/7479358100_1_large.jpg",
+      "https://images-americanas.b2w.io/produtos/7479358100/imagens/monitor-gamer-asus-tuf-gaming-vg24vqe-23-6-90lm0570-b011x0/7479358100_2_large.jpg",
+      "https://images-americanas.b2w.io/produtos/7479358100/imagens/monitor-gamer-asus-tuf-gaming-vg24vqe-23-6-90lm0570-b011x0/7479358100_3_large.jpg",
+      "https://images-americanas.b2w.io/produtos/7479358100/imagens/monitor-gamer-asus-tuf-gaming-vg24vqe-23-6-90lm0570-b011x0/7479358100_4_large.jpg",      
+    ],
+    filter: [
+      "peripherals",
+      "monitor",
+      "ASUS",
+      "gaming",
+    ],
+  },
+  {
+    name: "Headset Gamer HyperX Cloud II",
+    price: 500,
+    id:"987123456",
+    description:
+      "O Headset Gamer HyperX Cloud II oferece som surround 7.1 para uma experiência de jogo imersiva. Ele também possui um microfone com cancelamento de ruído para comunicações claras.",
+    thumb:
+      "https://images-americanas.b2w.io/produtos/6680951669/imagens/headset-gamer-cloud-ii-wireless-som-surround-7-1-4p5k4aa-hyperx/6680951669_1_large.jpg",
+    photos: [
+      "https://images-americanas.b2w.io/produtos/6680951669/imagens/headset-gamer-cloud-ii-wireless-som-surround-7-1-4p5k4aa-hyperx/6680951669_1_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6680951669/imagens/headset-gamer-cloud-ii-wireless-som-surround-7-1-4p5k4aa-hyperx/6680951669_2_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6680951669/imagens/headset-gamer-cloud-ii-wireless-som-surround-7-1-4p5k4aa-hyperx/6680951669_3_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6680951669/imagens/headset-gamer-cloud-ii-wireless-som-surround-7-1-4p5k4aa-hyperx/6680951669_4_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6680951669/imagens/headset-gamer-cloud-ii-wireless-som-surround-7-1-4p5k4aa-hyperx/6680951669_5_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6680951669/imagens/headset-gamer-cloud-ii-wireless-som-surround-7-1-4p5k4aa-hyperx/6680951669_6_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6680951669/imagens/headset-gamer-cloud-ii-wireless-som-surround-7-1-4p5k4aa-hyperx/6680951669_7_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6680951669/imagens/headset-gamer-cloud-ii-wireless-som-surround-7-1-4p5k4aa-hyperx/6680951669_8_large.jpg",
+    ],
+    filter: [
+      "peripherals",
+      "headset",
+      "HyperX",
+      "gaming",
+    ],
+  },
+  {
+    name: "Webcam Logitech C920 HD Pro",
+    price: 400,
+    id:"321654987436",
+    description:
+      "A Webcam Logitech C920 HD Pro oferece vídeo Full HD 1080p e é equipada com correção automática de luz e foco automático para videochamadas claras e nítidas.",
+    thumb:
+      "https://images-americanas.b2w.io/produtos/6307818456/imagens/webcam-com-microfone-full-hd-1080p/6307818456_1_large.jpg",
+    photos: [
+      "https://images-americanas.b2w.io/produtos/6307818456/imagens/webcam-com-microfone-full-hd-1080p/6307818456_1_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6307818456/imagens/webcam-com-microfone-full-hd-1080p/6307818456_2_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6307818456/imagens/webcam-com-microfone-full-hd-1080p/6307818456_3_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6307818456/imagens/webcam-com-microfone-full-hd-1080p/6307818456_4_large.jpg",
+      "https://images-americanas.b2w.io/produtos/6307818456/imagens/webcam-com-microfone-full-hd-1080p/6307818456_5_large.jpg",
+      
+    ],
+    filter: [
+      "peripherals",
+      "webcam",
+      "Logitech",
+      "HD",
+    ],
+  },
+  {
+    name: "Mousepad Gamer Razer Goliathus Speed",
+    price: 100,
+    id:"7865789123456",
+    description:
+      "O Mousepad Gamer Razer Goliathus Speed possui uma superfície lisa e sem costura para movimentos rápidos do mouse. Ele também tem uma base de borracha antiderrapante para manter o mousepad no lugar.",
+    thumb:
+      "https://images-americanas.b2w.io/produtos/4825489242/imagens/mouse-pad-gamer-com-led-rgb-9-cores-mousepad-gamer/4825489242_1_large.jpg",
+    photos: [
+      "https://images-americanas.b2w.io/produtos/4825489242/imagens/mouse-pad-gamer-com-led-rgb-9-cores-mousepad-gamer/4825489242_2_large.jpg",
+      "https://images-americanas.b2w.io/produtos/4825489242/imagens/mouse-pad-gamer-com-led-rgb-9-cores-mousepad-gamer/4825489242_3_large.jpg",
+      "https://images-americanas.b2w.io/produtos/4825489242/imagens/mouse-pad-gamer-com-led-rgb-9-cores-mousepad-gamer/4825489242_4_large.jpg",
+      "https://images-americanas.b2w.io/produtos/4825489242/imagens/mouse-pad-gamer-com-led-rgb-9-cores-mousepad-gamer/4825489242_5_large.jpg",
+      "https://images-americanas.b2w.io/produtos/4825489242/imagens/mouse-pad-gamer-com-led-rgb-9-cores-mousepad-gamer/4825489242_6_large.jpg",
+      "https://images-americanas.b2w.io/produtos/4825489242/imagens/mouse-pad-gamer-com-led-rgb-9-cores-mousepad-gamer/4825489242_7_large.jpg",
+      "https://images-americanas.b2w.io/produtos/4825489242/imagens/mouse-pad-gamer-com-led-rgb-9-cores-mousepad-gamer/4825489242_8_large.jpg",
+      "https://images-americanas.b2w.io/produtos/4825489242/imagens/mouse-pad-gamer-com-led-rgb-9-cores-mousepad-gamer/4825489242_9_large.jpg",
+      
+    ],
+    filter: [
+      "peripherals",
+      "mousepad",
+      "Razer",
+      "gaming",
+    ],
+  },
+  {
+    name: "Impressora Multifuncional HP DeskJet Ink Advantage 2774",
+    price: 600,
+    id:"456789123",
+    description:
+      "A Impressora Multifuncional HP DeskJet Ink Advantage 2774 oferece impressão, digitalização e cópia de alta qualidade. Ela também possui conectividade sem fio para impressão móvel fácil.",
+    thumb:
+      "https://images-americanas.b2w.io/produtos/3043277595/imagens/multifuncional-hp-advantage-2774-jato-de-tinta-colorido-wifi/3043277595_1_large.jpg",
+    photos: [
+      "https://images-americanas.b2w.io/produtos/3043277595/imagens/multifuncional-hp-advantage-2774-jato-de-tinta-colorido-wifi/3043277595_1_large.jpg",
+      "https://images-americanas.b2w.io/produtos/3043277595/imagens/multifuncional-hp-advantage-2774-jato-de-tinta-colorido-wifi/3043277595_2_large.jpg",
+      "https://images-americanas.b2w.io/produtos/3043277595/imagens/multifuncional-hp-advantage-2774-jato-de-tinta-colorido-wifi/3043277595_3_large.jpg",
+      "https://images-americanas.b2w.io/produtos/3043277595/imagens/multifuncional-hp-advantage-2774-jato-de-tinta-colorido-wifi/3043277595_4_large.jpg",
+      "https://images-americanas.b2w.io/produtos/3043277595/imagens/multifuncional-hp-advantage-2774-jato-de-tinta-colorido-wifi/3043277595_5_large.jpg",
+      "https://images-americanas.b2w.io/produtos/3043277595/imagens/multifuncional-hp-advantage-2774-jato-de-tinta-colorido-wifi/3043277595_6_large.jpg",
+    ],
+    filter: [
+      "peripherals",
+      "printer",
+      "HP",
+      "multifunctional",
+    ],
   },
 ];
 
