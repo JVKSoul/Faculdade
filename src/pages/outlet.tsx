@@ -6,7 +6,6 @@ export default () => {
     <>
       <Header />
       <OutletRouterDom />
-      <Footer />
     </>
   );
 };
